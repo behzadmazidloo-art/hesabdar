@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F5F7FA">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:layoutDirection="rtl">
+<TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="حسابیار لبنیات" android:textSize="26sp" android:textStyle="bold" android:textColor="#1565C0" android:gravity="center" android:padding="10dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ثبت بار و کنترل تسویه با شرکت" android:textSize="15sp" android:gravity="center" android:paddingBottom="12dp"/>
+<EditText android:id="@+id/barname" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="مبلغ بارنامه" android:inputType="numberDecimal"/>
+<EditText android:id="@+id/waste" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="مبلغ ضایعات" android:inputType="numberDecimal"/>
+<EditText android:id="@+id/cash" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="پول نقد" android:inputType="numberDecimal"/>
+<EditText android:id="@+id/pos" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="حواله کارتخوان" android:inputType="numberDecimal"/>
+<EditText android:id="@+id/discount" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="تخفیفات" android:inputType="numberDecimal"/>
+<EditText android:id="@+id/returns" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="برگشتی" android:inputType="numberDecimal"/>
+<EditText android:id="@+id/debts" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="بدهی‌ها" android:inputType="numberDecimal"/>
+<Button android:id="@+id/calc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="محاسبه تسویه و سود" android:layout_marginTop="10dp"/>
+<TextView android:id="@+id/result" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="17sp" android:padding="14dp" android:background="#FFFFFF" android:layout_marginTop="12dp"/>
+<View android:layout_width="match_parent" android:layout_height="1dp" android:background="#D0D5DD" android:layout_marginVertical="16dp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ثبت هزینه و محاسبه سود واقعی" android:textSize="20sp" android:textStyle="bold"/>
+<EditText android:id="@+id/expense" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="مبلغ هزینه" android:inputType="numberDecimal"/>
+<EditText android:id="@+id/expenseType" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="نوع هزینه (بیمه، خودرو، کارگر، جانبی...)"/>
+<Button android:id="@+id/addExpense" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ثبت هزینه"/>
+<TextView android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:padding="14dp" android:background="#FFFFFF" android:layout_marginTop="10dp"/>
+<Button android:id="@+id/saveDay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ذخیره روز" android:layout_marginTop="10dp"/>
+<Button android:id="@+id/report" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="گزارش ماهانه / سالانه"/>
+</LinearLayout></ScrollView>
